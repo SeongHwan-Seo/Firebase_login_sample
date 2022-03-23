@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251444AF96362976FDAC7D47 /* Pods_SfotifyLoginSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131D706AF4C6DF301D448068 /* Pods_SfotifyLoginSampleApp.framework */; };
+		CF81965027E9F2DA00860A8F /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF81964F27E9F2DA00860A8F /* EnterEmailViewController.swift */; };
+		CFC4FC4027EB42A2002A0142 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC4FC3F27EB42A2002A0142 /* GoogleService-Info.plist */; };
 		CFD39CD927E9E2C900DE130B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD39CD827E9E2C900DE130B /* AppDelegate.swift */; };
 		CFD39CDB27E9E2C900DE130B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD39CDA27E9E2C900DE130B /* SceneDelegate.swift */; };
 		CFD39CE027E9E2C900DE130B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD39CDE27E9E2C900DE130B /* Main.storyboard */; };
 		CFD39CE227E9E2CA00DE130B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD39CE127E9E2CA00DE130B /* Assets.xcassets */; };
 		CFD39CE527E9E2CA00DE130B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD39CE327E9E2CA00DE130B /* LaunchScreen.storyboard */; };
 		CFD39CED27E9E32500DE130B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD39CEC27E9E32500DE130B /* LoginViewController.swift */; };
+		CFE6031C27EB3DCC00ADEA04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE6031B27EB3DCC00ADEA04 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131D706AF4C6DF301D448068 /* Pods_SfotifyLoginSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SfotifyLoginSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3550516E2B0B7A7998DFD9 /* Pods-SfotifyLoginSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SfotifyLoginSampleApp.release.xcconfig"; path = "Target Support Files/Pods-SfotifyLoginSampleApp/Pods-SfotifyLoginSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		CF81964F27E9F2DA00860A8F /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		CFC4FC3F27EB42A2002A0142 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CFD39CD527E9E2C900DE130B /* SfotifyLoginSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SfotifyLoginSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD39CD827E9E2C900DE130B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD39CDA27E9E2C900DE130B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		CFD39CE427E9E2CA00DE130B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD39CE627E9E2CA00DE130B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFD39CEC27E9E32500DE130B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CFE6031B27EB3DCC00ADEA04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F8A9C9D3C23144111D83EE57 /* Pods-SfotifyLoginSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SfotifyLoginSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SfotifyLoginSampleApp/Pods-SfotifyLoginSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251444AF96362976FDAC7D47 /* Pods_SfotifyLoginSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55005623BBD3423D28A2C2F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9C9D3C23144111D83EE57 /* Pods-SfotifyLoginSampleApp.debug.xcconfig */,
+				6E3550516E2B0B7A7998DFD9 /* Pods-SfotifyLoginSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		684D50F78CDE319F9EDDE41A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				131D706AF4C6DF301D448068 /* Pods_SfotifyLoginSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFD39CCC27E9E2C900DE130B = {
 			isa = PBXGroup;
 			children = (
 				CFD39CD727E9E2C900DE130B /* SfotifyLoginSampleApp */,
 				CFD39CD627E9E2C900DE130B /* Products */,
+				55005623BBD3423D28A2C2F4 /* Pods */,
+				684D50F78CDE319F9EDDE41A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +90,13 @@
 				CFD39CD827E9E2C900DE130B /* AppDelegate.swift */,
 				CFD39CDA27E9E2C900DE130B /* SceneDelegate.swift */,
 				CFD39CDE27E9E2C900DE130B /* Main.storyboard */,
+				CF81964F27E9F2DA00860A8F /* EnterEmailViewController.swift */,
+				CFE6031B27EB3DCC00ADEA04 /* MainViewController.swift */,
 				CFD39CEC27E9E32500DE130B /* LoginViewController.swift */,
 				CFD39CE127E9E2CA00DE130B /* Assets.xcassets */,
 				CFD39CE327E9E2CA00DE130B /* LaunchScreen.storyboard */,
 				CFD39CE627E9E2CA00DE130B /* Info.plist */,
+				CFC4FC3F27EB42A2002A0142 /* GoogleService-Info.plist */,
 			);
 			path = SfotifyLoginSampleApp;
 			sourceTree = "<group>";
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFD39CE927E9E2CA00DE130B /* Build configuration list for PBXNativeTarget "SfotifyLoginSampleApp" */;
 			buildPhases = (
+				D5D59FF24515548C04F4744E /* [CP] Check Pods Manifest.lock */,
 				CFD39CD127E9E2C900DE130B /* Sources */,
 				CFD39CD227E9E2C900DE130B /* Frameworks */,
 				CFD39CD327E9E2C900DE130B /* Resources */,
+				B23DEE6E215508E39F48918C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +162,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD39CE527E9E2CA00DE130B /* LaunchScreen.storyboard in Resources */,
+				CFC4FC4027EB42A2002A0142 /* GoogleService-Info.plist in Resources */,
 				CFD39CE227E9E2CA00DE130B /* Assets.xcassets in Resources */,
 				CFD39CE027E9E2C900DE130B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B23DEE6E215508E39F48918C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SfotifyLoginSampleApp/Pods-SfotifyLoginSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SfotifyLoginSampleApp/Pods-SfotifyLoginSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SfotifyLoginSampleApp/Pods-SfotifyLoginSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D59FF24515548C04F4744E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SfotifyLoginSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFD39CD127E9E2C900DE130B /* Sources */ = {
@@ -140,7 +219,9 @@
 			files = (
 				CFD39CED27E9E32500DE130B /* LoginViewController.swift in Sources */,
 				CFD39CD927E9E2C900DE130B /* AppDelegate.swift in Sources */,
+				CF81965027E9F2DA00860A8F /* EnterEmailViewController.swift in Sources */,
 				CFD39CDB27E9E2C900DE130B /* SceneDelegate.swift in Sources */,
+				CFE6031C27EB3DCC00ADEA04 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +365,7 @@
 		};
 		CFD39CEA27E9E2CA00DE130B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A9C9D3C23144111D83EE57 /* Pods-SfotifyLoginSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +394,7 @@
 		};
 		CFD39CEB27E9E2CA00DE130B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3550516E2B0B7A7998DFD9 /* Pods-SfotifyLoginSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

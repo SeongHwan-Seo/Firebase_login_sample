@@ -1,0 +1,6 @@
+framework module Pods_SfotifyLoginSampleApp {
+  umbrella header "Pods-SfotifyLoginSampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
