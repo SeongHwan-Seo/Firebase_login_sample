@@ -7,4 +7,5 @@ target 'SfotifyLoginSampleApp' do
 
   # Pods for SfotifyLoginSampleApp
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 end

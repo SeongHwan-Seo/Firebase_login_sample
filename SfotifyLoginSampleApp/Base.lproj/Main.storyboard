@@ -231,8 +231,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpL-1r-ucn">
-                                <rect key="frame" x="174" y="532" width="67" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpL-1r-ucn">
+                                <rect key="frame" x="175.5" y="538" width="63" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="로그아웃">
@@ -242,17 +242,28 @@
                                     <action selector="logoutButtonTapped:" destination="fVk-1Y-kXQ" eventType="touchUpInside" id="ZEe-O8-v8A"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NlC-V9-YSe">
+                                <rect key="frame" x="166" y="488" width="82" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="비밀번호 변경"/>
+                                <connections>
+                                    <action selector="resetPasswordButtonTapped:" destination="fVk-1Y-kXQ" eventType="touchUpInside" id="Kca-pe-0D7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jNx-wg-HUo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ljS-AL-8Li" firstAttribute="centerY" secondItem="jNx-wg-HUo" secondAttribute="centerY" id="5n1-Ua-Cr2"/>
+                            <constraint firstItem="NlC-V9-YSe" firstAttribute="top" secondItem="ljS-AL-8Li" secondAttribute="bottom" constant="20" id="9cm-Of-iTp"/>
                             <constraint firstItem="UpL-1r-ucn" firstAttribute="centerX" secondItem="jNx-wg-HUo" secondAttribute="centerX" id="GnQ-BW-n6f"/>
                             <constraint firstItem="ljS-AL-8Li" firstAttribute="centerX" secondItem="jNx-wg-HUo" secondAttribute="centerX" id="Kml-OE-oLc"/>
-                            <constraint firstItem="UpL-1r-ucn" firstAttribute="top" secondItem="ljS-AL-8Li" secondAttribute="bottom" constant="20" id="yHg-iN-fHB"/>
+                            <constraint firstItem="NlC-V9-YSe" firstAttribute="centerX" secondItem="jNx-wg-HUo" secondAttribute="centerX" id="UIR-3W-oas"/>
+                            <constraint firstItem="UpL-1r-ucn" firstAttribute="top" secondItem="NlC-V9-YSe" secondAttribute="bottom" constant="20" id="VCG-sL-CQD"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="resetPasswordButton" destination="NlC-V9-YSe" id="5xU-HP-P99"/>
                         <outlet property="welcomeLabel" destination="ljS-AL-8Li" id="6EV-RW-3oD"/>
                     </connections>
                 </viewController>

@@ -54,7 +54,6 @@
 				F8A9C9D3C23144111D83EE57 /* Pods-SfotifyLoginSampleApp.debug.xcconfig */,
 				6E3550516E2B0B7A7998DFD9 /* Pods-SfotifyLoginSampleApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
